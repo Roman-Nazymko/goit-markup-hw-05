@@ -230,7 +230,7 @@
     }
     .main-button:hover,
     .main-button:focus {
-        background-color: var(--iris-color);
+        background-color: var(--ocean-color);
     }
     .benefits-section {
     }
@@ -515,6 +515,7 @@
     border: none;
     border-radius: 4px;
     transition: background-color var(--transition);
+    cursor: pointer;
   }
   .subscribe-icon {
     margin-left: 16px; 
@@ -652,7 +653,7 @@
     letter-spacing: 0.04em;
     background-color: transparent;
     outline: transparent;
-    color: var(--navy-blue-color);
+    color: var(--navy-blue-modal-color);
   }
   .textarea::placeholder {
     color: var(--navy-blue-modal-color);
